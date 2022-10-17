@@ -14,8 +14,6 @@ public class player_mov : MonoBehaviour
         _velocidadeTras = 5;
         _velocidadeGirar = 60;
     }
-
-    
     void Update()
     {
         if (Input.GetKey("w"))
