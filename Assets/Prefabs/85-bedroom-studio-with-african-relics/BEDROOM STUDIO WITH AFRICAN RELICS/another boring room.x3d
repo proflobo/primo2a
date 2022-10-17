@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE X3D PUBLIC "ISO//Web3D//DTD X3D 3.0//EN" "http://www.web3d.org/specifications/x3d-3.0.dtd">
+<X3D version="3.0" profile="Immersive" xmlns:xsd="http://www.w3.org/2001/XMLSchema-instance" xsd:noNamespaceSchemaLocation="http://www.web3d.org/specifications/x3d-3.0.xsd">
+	<head>
+		<meta name="filename" content="another boring room.x3d" />
+		<meta name="generator" content="Blender 2.82 (sub 7)" />
+	</head>
+	<Scene>
+		<NavigationInfo headlight="false"
+		                visibilityLimit="0.0"
+		                type='"EXAMINE", "ANY"'
+		                avatarSize="0.25, 1.75, 0.75"
+		                />
+		<Background DEF="WO_World"
+		            groundColor="0.051 0.051 0.051"
+		            skyColor="0.051 0.051 0.051"
+		            />
+		<Transform DEF="just_a_boring_room_fspy_TRANSFORM"
+		           translation="9.113014 -0.455959 -5.289543"
+		           scale="1.000000 1.000000 1.000000"
+		           rotation="0.934193 0.002069 0.356762 3.140313"
+		           >
+			<Viewpoint DEF="CA_just_a_boring_room_fspy"
+			           centerOfRotation="0 0 0"
+			           position="0.00 -0.00 -0.00"
+			           orientation="0.40 0.00 0.92 0.00"
+			           fieldOfView="1.361"
+			           />
+		</Transform>
+		<Transform DEF="Cube_002_TRANSFORM"
+		           translation="-14.258965 14.468348 18.454838"
+		           scale="0.588793 1.099531 1.443755"
+		           rotation="1.000000 0.000000 0.000000 1.570796"
+		           >
