@@ -8,12 +8,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/menu.unity
     guid: 10913eb928c70094cbb9f99cbd3bc84d
-  - enabled: 1
-    path: Assets/Scenes/joguinho.unity
-    guid: 9fc0d4010bbf28b4594072e72b8655ab
-  - enabled: 1
-    path: Assets/Scenes/mobiliado.unity
-    guid: f4ede95a7f293ab40a1858d68dc3c283
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
   - enabled: 1
     path: Assets/Scenes/jogo.unity
     guid: 1be11bcbce3ca774cb23b4cf37949d11

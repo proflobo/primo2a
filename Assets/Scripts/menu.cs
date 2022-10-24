@@ -8,7 +8,7 @@ public class menu : MonoBehaviour
 {
     public void CenaJogar()
     {
-        SceneManager.LoadScene("joguinho");
+        SceneManager.LoadScene("jogo");
         //carrega a Scene chamada joguinho, colocar o mesmo nome da cena criada
     }
     public void creditos()
