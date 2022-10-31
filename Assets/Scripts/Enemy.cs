@@ -5,26 +5,23 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    public Transform Alvo;
-    public ControleJogo CJ;
+    public score SC;
 
     void Start()
     {
-        Alvo = GameObject.Find("Player").transform;
-       //CJ = GameObject.Find("Canvas").GetComponent<ControleJogo>();
+        SC = GameObject.Find("TextoMortes").GetComponent<TextoMortes>();
     }
-
-    
     void Update()
     {
         
     }
     void OnTriggerEnter(Collider other)
     {
-        if(other.gameObject.tag == "Bala")
+        if (collision.gameObject.tag == "Bala")//gameObject.name == "Enemy"
         {
-            //Destroy(gameObject);
-            //CJ.QuantidadeMorte += 1;
+      
+            SC.score += 1;
+
         }
     }
 }
