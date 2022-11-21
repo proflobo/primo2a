@@ -5,11 +5,11 @@ using UnityEngine.UI;
 
 public class Enemy : MonoBehaviour
 {
-    public score SC;
+   // public score SC;
 
     void Start()
     {
-        SC = GameObject.Find("TextoMortes").GetComponent<TextoMortes>();
+       // SC = GameObject.Find("TextoMortes").GetComponent<TextoMortes>();
     }
     void Update()
     {
@@ -20,7 +20,7 @@ public class Enemy : MonoBehaviour
         if (collision.gameObject.tag == "Bala")//gameObject.name == "Enemy"
         {
       
-            SC.score += 1;
+            //SC.score += 1;
 
         }
     }
